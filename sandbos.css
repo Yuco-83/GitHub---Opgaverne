@@ -1,0 +1,36 @@
+:root {
+  --base: var(#cdb535);
+  --primary: var(#000000);
+  --secondary: var(#fade41);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: BasisGrotesque, sans-serif;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  background-color: #000000;
+  color: #cdb535;
+}
+
+main {
+  display: flexbox;
+  justify-content: center;
+  padding: 40px 10% 80px 10%;
+}
